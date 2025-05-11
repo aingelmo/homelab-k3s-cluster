@@ -6,10 +6,6 @@ helmDefaults:
   wait: true
   waitForJobs: true
 
-repositories:
-  - name: cilium
-    url: https://helm.cilium.io
-
 releases:
   - name: cert-manager
     namespace: cert-manager
