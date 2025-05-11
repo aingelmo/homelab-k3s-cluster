@@ -130,7 +130,7 @@ function main() {
     # Apply resources and Helm releases
     wait_for_nodes
     apply_namespaces
-    # apply_sops_secrets
+    apply_sops_secrets
     apply_crds
     apply_helm_releases
 
