@@ -28,7 +28,6 @@ spec:
         annotations:
           external-dns.alpha.kubernetes.io/hostname: "external.${SECRET_DOMAIN}"
         type: LoadBalancer
-        externalTrafficPolicy: Cluster
       ingressClassResource:
         name: external
         default: false
